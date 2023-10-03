@@ -54,7 +54,7 @@ def process_singlescale(N, T, beta):
     for t in range(L,T+added):
         Y[:,t]=G@Y[:,t-L]+M@eps[:,t]
 
-    return Y, C
+    return Y[:,-T:], C
 
 
 def process_multiscale(N,T, beta, transform='dwt', wv='db1'):
