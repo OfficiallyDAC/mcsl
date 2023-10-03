@@ -1,0 +1,11 @@
+name: mcsl
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python
+  - pywavelets
+  - scikit-learn
+  - statsmodels
+  - jupyter
