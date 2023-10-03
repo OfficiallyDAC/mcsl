@@ -11,7 +11,15 @@ conda env create -f mcsl.yml
 
 The file `test.ipynb` shows how to apply the proposed algorithms to synthetic data.
 
-<!-- Please, cite as:
-```console
+Please, use the following for citing:
 
-``` -->
+```console
+@article{d'acunto2023multiscale,
+title={Multiscale Causal Structure Learning},
+author={Gabriele D'Acunto and Paolo Di Lorenzo and Sergio Barbarossa},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=Ub6XILEF9x},
+}
+```
